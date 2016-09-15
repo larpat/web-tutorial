@@ -1,0 +1,34 @@
+<script src="http://patrikneu.selfhost.eu/Tutorial@Desy/logicalt.js"></script>
+<script src="http://patrikneu.selfhost.eu/Tutorial@Desy/framesalt.js"></script>
+<link rel="stylesheet" type="text/css" href="http://patrikneu.selfhost.eu/Tutorial@Desy/css.css" />
+<div class="popup-background">
+			<div class="popup">
+				Möchtest du das Tutorial starten? <br /> Es hilft dir beim Einstieg und nimmt maximal 5-10  Minuten deiner Zeit in Anspruch.
+				<div class="buttonwrapper">
+					<button class="startTutorial" autofocus onclick="$('.popup-background').hide();">
+						Ja
+					</button>
+					<button onclick="$('.popup-background').hide();">
+						Nein
+					</button>
+				</div>
+			</div>
+		</div>
+		<div id="spacer" class="tutorial"></div>
+<div id="tutorial" class="tutorial">
+<div id="navigation">
+		<table>
+			<tr>
+				<td><img src="http://patrikneu.selfhost.eu/Tutorial@Desy/back.png" class="arrows" id="back"></td>
+				<td><p id="progress"></p></td>
+				<td><img src="http://patrikneu.selfhost.eu/Tutorial@Desy/next.png" class="arrows" id="next"></td>
+			</tr>
+		</table>
+	</div>
+	<canvas id="overlay"></canvas>
+	<div id="textwrapper">
+		<p id="explanation"></p>
+		<hr>
+		<p id="task"></p>
+	</div>
+</div>
