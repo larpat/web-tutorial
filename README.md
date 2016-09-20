@@ -21,17 +21,17 @@ In case one is tracking an input of the type 'text' and the user has to enter a 
 A frame could look like this:
 ```html
 <frame number="16">
-<headline>
-<center>Example</center>
-</headline>
-<explanation>
-<left>Exampletext</left>
-</explanation>
-<task>
-<right>Exampletask</right>
-</task>
-<objectOfInterest button="true">#newid</objectOfInterest>
-<taskDoneValue></taskDoneValue>
+  <headline>
+    <center>Example</center>
+  </headline>
+  <explanation>
+    <left>Exampletext</left>
+  </explanation>
+  <task>
+    <right>Exampletask</right>
+  </task>
+  <objectOfInterest button="true">#newid</objectOfInterest>
+  <taskDoneValue></taskDoneValue>
 </frame>
 ```
 The file also contains a default setting which is set using the tag `<default>`.
