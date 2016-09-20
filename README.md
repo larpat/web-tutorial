@@ -28,7 +28,7 @@ A frame could look like this:
 <left>Exampletext</left>
 </explanation>
 <task>
-<right>Task</right>
+<right>Exampletask</right>
 </task>
 <objectOfInterest button="true">#newid</objectOfInterest>
 <taskDoneValue></taskDoneValue>
