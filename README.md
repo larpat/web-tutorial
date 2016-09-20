@@ -1,6 +1,6 @@
 #User manual#
 
-The division of structure and content allows the developer to modify the tutorial without actually making a change in the code. To manage the content, add new steps or change the requested user-input there is an external html file called "Frames.html", which is being read by the Javascript.
+The division of structure and content allows the developer to modify the tutorial without actually making a change in the code. To manage the content, add new steps or change the requested user-input there is an external html file called "frames.html", which is being read by the Javascript.
 
 Every "frame" (every individual step in the tutorial is referred to as "frame") has their own tag/paragraph in which the frame itself can be modified. It is possible to adjust
 
