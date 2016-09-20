@@ -35,4 +35,4 @@ A frame could look like this:
 </frame>
 ```
 The file also contains a default setting which is set using the tag `<default>`.
-Please note that it is very important to not type a space or a break in empty tags, as this will cause errors. One is advised to proceed as it is shown with `<taskDoneValue>` in the example.
+Please note that it is very important to not type a space or a break in empty tags, as this will cause errors. One is advised to proceed as it is shown with `<taskDoneValue>` in the example above.
